@@ -15,6 +15,9 @@ html{
     font-size: 62.5%;
 
 }
+section{
+    padding:2rem 9% ;
+}
 
 /* header */
 
@@ -29,7 +32,7 @@ html{
     justify-content: space-between;
     padding: 2rem 9%;
     z-index: 2;
-    background: #d7995f;
+ 
 
 
 }
@@ -61,3 +64,67 @@ html{
 }
 
 /* end */
+
+/* Home */
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh ;
+    align-items: center;
+    justify-content: center;
+    background: #c27e3f;
+
+}
+
+.home .content{
+    flex: 1 1 40rem;
+
+}
+
+.home .content .title{
+    font-size: 6rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.home .content .title span{
+    text-transform: uppercase;
+    color: #2f1b02;
+
+}
+
+.home .content .description{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #fff;
+    
+}
+.home .content .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    border-radius: 30px;
+    background: #351e02;
+    cursor: pointer;
+}
+
+.home .content .btn:hover{
+    letter-spacing: .2rem;
+
+}
+
+.home .image{
+    flex: 1 1 40rem;
+
+}
+
+.home .image img{
+    width: 100%;
+
+}
