@@ -13,6 +13,7 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 
 }
 section{
@@ -39,6 +40,7 @@ section{
 
 .header .logo img{
     height: 6rem;
+    width: 100%;
 }
 
 
@@ -145,6 +147,60 @@ section{
 
 /* end */
 
+/* About */
+
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh ;
+    align-items: center;
+    justify-content: center;
+    background: #a8692f;
+
+}
+
+.about .content{
+    flex: 1 1 40rem;
+    padding-top: 6.5em;
+
+}
+
+.about .content .title{
+    font-size: 6rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.about .content .description span{
+    text-transform: uppercase;
+    color: #271602;
+    font-weight: bold;
+
+}
+
+.about .content .description{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #fff;
+    
+}
+.about .image{
+    flex: 1 1 40rem;
+    padding-right: 4%;
+
+}
+
+.about .image img{
+    width: 100%;
+
+}
+
+/*  end   */
+
 @media (max-width:991px) {
     html{
         font-size: 55%;
@@ -207,6 +263,21 @@ section{
     }
 
     .home .content .description{
+        font-size: 1.6rem;
+    }
+    .about .content{
+        padding-top: 9.5rem;
+
+    }
+    .about .image img{
+        width: 368px;
+    }
+    .about .content .title{
+        font-size: 4rem;
+
+    }
+
+    .about .content .description{
         font-size: 1.6rem;
     }
 }
