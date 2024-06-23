@@ -114,6 +114,7 @@ section{
 .home .content .description{
     font-size: 2rem;
     font-weight: lighter;
+    text-align: left;
     line-height: 1.8;
     padding: 1rem 0;
     color: #fff;
@@ -183,6 +184,7 @@ section{
 .about .content .description{
     font-size: 2rem;
     font-weight: lighter;
+    text-align: left;
     line-height: 1.8;
     padding: 1rem 0;
     color: #fff;
@@ -211,7 +213,7 @@ section{
     min-height: 100vh ;
     align-items: center;
     justify-content: center;
-    background: #c27e3f;
+    background: #a8692f;
     padding: 20px;
 
 }
@@ -234,7 +236,7 @@ section{
   
 .menu {
     width: 80%;
-    background-color: #a8692f;
+    background-color: #c27e3f;
     align-items: center;
     justify-content: center;
     margin-left: auto;
@@ -288,6 +290,96 @@ section{
 
 /*  end   */
 
+/* contact */
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    background: #a8692f;
+    padding: 0;
+
+}
+.contact .content .title{
+    justify-content: center;
+    flex: 1 1 40rem;
+    padding-top: 20.5rem;
+    font-size: 6rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+.contact .content .title span{
+    color: #351e02;
+}
+.contact .footer{
+   
+
+    box-sizing: border-box;
+    background-color: #291602;
+    width: 100%;
+    padding:  70px 30px 20px;
+    
+
+
+}
+.contact .footer .socials{
+    display: flex;
+    justify-content: center;
+}
+.contact .footer .socials a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+.contact .footer .socials a i{
+    font-size: 2rem;
+    color: #271602;
+    opacity: 0.9;
+
+}
+.contact .footer .socials a:hover{
+    background-color: #a8692f;
+    transition: 0.5s;
+}
+.contact .footer .contactnav{
+    margin: 30px 0;
+
+}
+.contact .footer .contactnav ul{
+    display: flex;
+    justify-content: center;
+}
+.contact .footer .contactnav ul li a{
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.contact .footer .contactnav ul li a:hover{
+    opacity: 1;
+}
+
+.contact .footer .footerBottom{
+    padding-top: 5rem;
+    font-size: 1.3rem;
+    color: #fff;
+}
+.contact .footer .footerBottom span{
+    color: #c27e3f;
+    text-transform: uppercase;
+
+}
+/* end */
+
+
+/* responsive */
+
 @media (max-width:991px) {
     html{
         font-size: 55%;
@@ -337,6 +429,9 @@ section{
         text-align: center;
         font-size: 3rem;
     }
+
+
+
     .home .content{
         padding-top: 9.5rem;
 
@@ -352,6 +447,11 @@ section{
     .home .content .description{
         font-size: 1.6rem;
     }
+    
+
+
+
+
     .about .content{
         padding-top: 9.5rem;
 
@@ -366,6 +466,39 @@ section{
 
     .about .content .description{
         font-size: 1.6rem;
+    }
+
+
+
+
+    .contact .contant{
+        padding-top: 9.5rem;
+    }
+    .contact .contant .title{
+        font-size: 4rem;
+
+    }
+
+
+
+
+
+    
+
+    .body .menu{
+        padding-top: 9.5rem;
+
+    }
+    .body .menu img{
+        width: 75px;
+    }
+    .body .menu .coffee .item{
+        font-size: 1.5rem;
+
+    }
+
+    .body .menu .dessert .item{
+        font-size: 1.5rem;
     }
 }
 

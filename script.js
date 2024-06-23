@@ -14,7 +14,7 @@ document.querySelector('#close').onclick = () =>{
 
 
 
-// mousemove home img
+// mousemove home,about img
 
 document.addEventListener('mousemove', move);
 function move(e){
@@ -60,7 +60,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         
 
-        } else {
+        }
+        else {
             header.style.backgroundColor= "";
             
         }
@@ -70,24 +71,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-    const about = document.querySelector(".about");
-
-    window.addEventListener("scroll", function() {
-        if (window.scrollY > 60) {
-
-            // changing bg color when scroll
-            header.style.backgroundColor = "#a8692f";
-
-        
-
-        } else {
-            header.style.backgroundColor= "";
-            
-        }
-    
-    });
-
-
-});
 
