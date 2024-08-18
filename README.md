@@ -1,4 +1,4 @@
 # Responsive Landing page
 ## cafe coffee website
 
-[cafe coffee](https://adarshmadhusoodanan.github.io/PRODIGY_WD_01/)
+[cafe coffee](https://adarshmadhusoodanan.github.io/Cafe-Coffee/)
